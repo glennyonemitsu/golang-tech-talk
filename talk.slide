@@ -1,0 +1,150 @@
+Why Golang is Awesome
+And Why You Should Learn It
+24 Apr 2015
+
+Glenn Yonemitsu
+Technomancer, Keep.com
+glenn@keep.com
+
+
+* Brief History
+
+Started internally at Google
+
+	Rob Pike, Ken Thompson (Unix, UTF-8)
+
+Went open source in late 2009 - almost 6 years old
+
+First public release 2011-03-16
+
+v1.4 2012-12-10
+
+v1.5 slated for 2015-08
+
+all done with an open dev process
+
+
+* Adoption
+
+*Projects*
+
+Docker, Kubernetes, Etcd
+
+*Companies*
+
+Google, Digital Ocean, Cloudflare, Hailo, Dropbox, Disqus, Heroku, NY Times,
+	Soundcloud, Iron.io, Bit.ly
+
+
+* Language Details
+
+* Nothing is New
+
+	"In every respect the language was designed by thinking about what programmers
+	do and how to make programming, at least the kind of programming we do, more
+	effective, which means more fun."
+	- FAQ
+
+
+* Syntax
+
+.play syntax1.go
+
+
+* Syntax (shortcuts)
+
+.play syntax2.go /^func main/,/^}/
+
+
+* For Loops
+
+.code forloops1.go
+
+
+* Switch
+
+.code switch1.go
+
+
+* Functions
+
+.code functions1.go
+
+
+* Constants and Iota
+
+.code constants1.go
+
+
+* init function
+
+.play init1.go
+
+
+* Similarities to Python
+
+*Namespaces*
+
+	import "net/http"
+
+	func main() {
+		http.Get("http://example.com/")
+	}
+
+*Duck*Typing*(Struct*Typing*in*Go)*
+
+	type Blabber interface {
+		SaySomething(string)
+	}
+
+	func makeSomeNoise(b Blabber) {
+		b.SaySomething("Hi there")
+	}
+
+
+* Concurrency
+
+
+* Goroutines
+
+.play concurrency1.go
+
+
+* Channels
+
+.play concurrency2.go
+
+
+* Select
+
+.play concurrency3.go /START OMIT/,/END OMIT/
+
+
+* Tools
+
+
+* Great Tools Are Packaged With Go
+
+*gofmt* - The Go style guide formatter (demo)
+
+*godoc* - Documentation generation
+
+*go*get* - Package manager
+
+*go*test* - Unit test runner
+
+*present* (this web server)
+
+	go get godoc.org/golang.org/x/tools/cmd/present
+	present talk.slide
+
+
+* Where to Go From Here
+
+https://tour.golang.org - The Go Tour (2 hours)
+
+YouTube - "Concurrency is not parallelism" by Rob Pike
+
+https://golang.org/doc/effective_go.html - Effective Go
+
+Follow ups @ Keep (maybe?)
