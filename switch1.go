@@ -9,9 +9,9 @@ switch name {
 
 switch result := doWork(); result + 100 {
 	case 100:
-		doThis()
+		doThis(result)
 	case 200:
-		doThat()
+		doThat(result)
 }
 
 switch {

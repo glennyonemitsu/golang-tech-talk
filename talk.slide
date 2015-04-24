@@ -1,5 +1,4 @@
 Why Golang is Awesome
-And Why You Should Learn It
 24 Apr 2015
 
 Glenn Yonemitsu
@@ -7,43 +6,7 @@ Technomancer, Keep.com
 glenn@keep.com
 
 
-* Brief History
-
-Started internally at Google
-
-	Rob Pike, Ken Thompson (Unix, UTF-8)
-
-Went open source in late 2009 - almost 6 years old
-
-First public release 2011-03-16
-
-v1.4 2012-12-10
-
-v1.5 slated for 2015-08
-
-all done with an open dev process
-
-
-* Adoption
-
-*Projects*
-
-Docker, Kubernetes, Etcd
-
-*Companies*
-
-Google, Digital Ocean, Cloudflare, Hailo, Dropbox, Disqus, Heroku, NY Times,
-	Soundcloud, Iron.io, Bit.ly
-
-
 * Language Details
-
-* Nothing is New
-
-	"In every respect the language was designed by thinking about what programmers
-	do and how to make programming, at least the kind of programming we do, more
-	effective, which means more fun."
-	- FAQ
 
 
 * Syntax
@@ -53,7 +16,7 @@ Google, Digital Ocean, Cloudflare, Hailo, Dropbox, Disqus, Heroku, NY Times,
 
 * Syntax (shortcuts)
 
-.play syntax2.go /^func main/,/^}/
+.play syntax2.go
 
 
 * For Loops
